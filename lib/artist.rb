@@ -22,7 +22,7 @@ class Artist
   end
 
 def self.song_count
-   size = @songs.length
+   size = @songs.size
    return size
  end
 
